@@ -1,0 +1,6 @@
+.article {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center; }
+  .article p, .article h3 {
+    width: 350px; }

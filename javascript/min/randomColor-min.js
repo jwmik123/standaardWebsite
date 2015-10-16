@@ -1,0 +1,1 @@
+function randomColor(){var o="#",n=["000000","FF0000"];o+=n[Math.floor(Math.random()*n.length)],document.getElementById("wrap").style.background=o}randomColor();

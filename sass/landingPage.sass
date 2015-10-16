@@ -1,0 +1,99 @@
+$break-small: 480px
+
+// Parallax
+
+.bird-box
+  position: relative
+  height: 600px
+  background:
+    image: url(../images/m5.jpg)
+
+    size: auto 1200px
+    position: top center
+    attachment: fixed
+    overflow: hidden
+    z-index: 1
+
+
+.logo
+  height: 100px
+  width: 100%
+  background:
+    image: url(../images/maroon5-splash-logo.png)
+    position: center
+    repeat: no-repeat
+  position: absolute
+  top: 50%
+  margin-top: -150px
+
+
+
+.back-bird
+
+  background:
+
+    image: url(../images/littleLogo.jpg)
+    repeat: no-repeat
+    position: top left
+  position: absolute
+  left: 50%
+  margin-left: -480px
+
+
+
+.header-nav
+  background-color: black
+  position: fixed top
+  .header-ul
+    .header-li
+      list-style-type: none
+      display: inline-block
+      padding-right: 25px
+      text-align: center
+      a
+        text-decoration: none
+        color: white
+
+        font-size: 2em
+
+        &:hover
+          border-bottom: 1px solid white
+
+
+
+
+
+
+
+  // Navigation
+
+  //ul
+  //
+  //
+  //  position: fixed
+  //  padding-left: 60%
+  //  padding-right: 10%
+  //  //border: dotted white 3px
+  //  //background: black
+  //
+  //
+  //
+  //
+  //  a
+  //    text-decoration: none
+  //    color: white
+  //    font-family: monospace
+  //    font-size: x-large
+  //    padding: 10px
+  //
+  //
+  //    &:hover
+  //      color: greenyellow
+  //
+  //      @media screen and (max-width: $break-small)
+  //        color: pink
+  //
+  //  li
+  //    list-style-type: none
+  //    text-decoration: none
+  //    display: inline-flex
